@@ -4,7 +4,7 @@
     "builder": "NIXPACKS"
   },
   "deploy": {
-    "startCommand": "tmux new -s 43210 && chmod 777 bombsquad_server && chmod 777 dist/bombsquad_headless && ./bombsquad_server",
+    "startCommand": "chmod 777 bombsquad_server && chmod 777 dist/bombsquad_headless && ./bombsquad_server",
     "restartPolicyType": "ON_FAILURE",
     "restartPolicyMaxRetries": 10
   }
